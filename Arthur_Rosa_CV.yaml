@@ -14,7 +14,7 @@ cv:
       username: '@arthur@rosafamily.social'
   sections:
     summary:
-      - Hands-on engineering manager with 9+ years across LinkedIn and Cimpress, spanning AI evaluation, recommendations, commerce, cloud infrastructure, and manufacturing systems. Player-coach leader who sets technical direction, develops senior engineers, and ships zero-to-one products in ambiguous environments.
+      - Hands-on engineering manager with 9+ years of experience across LinkedIn and Cimpress, spanning AI evaluation, recommendations, commerce, cloud infrastructure, and manufacturing systems. Player-coach leader who sets technical direction, develops senior engineers, and ships zero-to-one products in ambiguous environments.
 
     experience:
       - company: LinkedIn
@@ -24,13 +24,13 @@ cv:
         location:
         summary: Managed teams of 5-11 engineers across entry level, senior, and staff levels while operating as a player-coach across jobs, ads, mobile commerce, and AI product initiatives.
         highlights:
-          - "Led an 8-engineer team building [LinkedIn Crosscheck](https://www.linkedin.com/blog/engineering/ai/crosscheck-benchmarking-ai-models-in-the-real-world), a blind side-by-side frontier-model evaluation product; ramped company-wide in under 3 months while authoring 100+ production pull requests."
+          - "Led an 8-engineer team building [LinkedIn Crosscheck](https://www.linkedin.com/blog/engineering/ai/crosscheck-benchmarking-ai-models-in-the-real-world), a blind side-by-side frontier-model evaluation product; released to the public in under 3 months while authoring 100+ production pull requests."
           - Architected LinkedIn Marketing Solutions Mobile Boosting, a projected $29M first-year revenue opportunity; led LinkedIn's first Apple Advanced Commerce API integration and reusable payments infrastructure across marketing, business applications, finance, and payments platform teams.
-          - Led Immersive Video Ads minimum viable product across immersive video, ad serving, and ad foundation teams, delivering on schedule and improving video views and completion rates by ~10% in LinkedIn-on-LinkedIn campaign tests.
+          - Led Immersive Video Ads minimum viable product across video, ad serving, and ad foundation teams, delivering on schedule and improving video views and completion rates by ~10% in LinkedIn-on-LinkedIn campaign tests.
           - Built LinkedIn job-seeking preferences platform and salary filters, growing salary-preference adoption 300% to 8M users and supporting partner-built experiences used by 500K daily active users.
           - Introduced AI-assisted development workflows across the team, measuring 40%+ development-time savings across 45 completed tasks using pre-work estimates and source-control evidence.
-          - Sustained high engagement through reorgs, with Employee Voice Survey scores up to 88/100 (+12 vs company, +16 vs org), while promoting engineers through structured growth plans and calibration advocacy.
-          - Owned launch-readiness engineering across compliance annotations, content moderation, access approvals, OpenTelemetry metrics, alerting, and operational triage flows.
+          - Sustained high engagement through multiple reorgs, with Employee Voice Survey scores up to 88/100 (+12 vs company, +16 vs org), while promoting engineers through structured growth plans and calibration advocacy.
+          - Owned launch-readiness engineering across data compliance annotations, content moderation, access approvals, OpenTelemetry metrics, alerting, and operational triage flows.
 
       - company: Vistaprint / Cimpress
         position: Principal Engineer, Engineering Manager
@@ -42,7 +42,7 @@ cv:
           - Built reusable AWS/container deployment frameworks adopted as templates across Cimpress' modernization from aging on-prem datacenters to cloud-native services; reduced on-call pages 80%.
           - Designed and implemented Cimpress' first global multi-region deployment model for manufacturing services, improving resilience and scalability across global operations.
           - Converted backend stack from Amazon ECS to Kubernetes to improve monitoring, scaling, and multi-region deployment; deployed core services in Ireland and Mumbai to reduce latency for plants across Asia, Australia, and India.
-          - Led Pipelines, a configurable manufacturing workflow product that replaced multiple bespoke services and processed 2.9M jobs across all manufacturing plants.
+          - Led Pipelines, a configurable manufacturing workflow product that replaced multiple bespoke services and processed millions of jobs across all manufacturing plants in its first few months.
           - Engineered integrations with industrial hardware by reverse-engineering protocols in constrained manufacturing environments, enabling reliable solutions where vendor documentation and standard interfaces were unavailable.
           - Built direct-to-garment error-prevention scans and embroidery press connection software that reduced loading errors to near zero and helped prevent wrong-design production; solution rolled out globally.
           - Created talent rotation program that broadened engineering skills, built succession depth, and supported promotion of 75% of the team.
@@ -55,7 +55,7 @@ cv:
         location:
         summary:
         highlights:
-          - "Volunteered on [Career Outcome Tracker](https://www.linkedin.com/pulse/piloting-new-way-track-career-outcomes-linkedinsocialimpact-9xude/), a privacy-preserving clean-room product helping nonprofits, universities, and training programs measure employment outcomes with aggregated LinkedIn data."
+          - "Volunteered on [Career Outcomes Tracker](https://www.linkedin.com/pulse/piloting-new-way-track-career-outcomes-linkedinsocialimpact-9xude/), a privacy-preserving clean-room product helping nonprofits, universities, and training programs measure employment outcomes with aggregated LinkedIn data."
           - Partnered directly with nonprofit organizations to deliver org-specific career-outcome insights; earned praise for responsiveness, professionalism, and depth of analysis.
           - Built API-driven automation replacing manual partner workflows, enabling more flexible evaluations and helping the team scale beyond the original process.
           - "Mentored college students through LinkedIn's [Possibilities in Tech Scholarship](https://careers.linkedin.com/pathways-programs/possibilities-scholarship), supporting future software engineers through career guidance and technical development."
