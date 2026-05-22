@@ -26,6 +26,7 @@
             --page-background: #f6f8fa;
             --content-background: #ffffff;
             --content-border: #d8dee4;
+            --avatar-shadow: rgba(31, 35, 40, 0.12);
         }
 
         @media (prefers-color-scheme: dark) {
@@ -33,6 +34,7 @@
                 --page-background: #010409;
                 --content-background: #0d1117;
                 --content-border: #30363d;
+                --avatar-shadow: rgba(0, 0, 0, 0.35);
             }
         }
 
@@ -42,7 +44,6 @@
         }
 
         .markdown-body {
-            position: relative;
             box-sizing: border-box;
             max-width: 920px;
             margin: 32px auto;
@@ -54,21 +55,43 @@
         }
 
         .markdown-body > h1:first-of-type {
-            margin-top: 0;
-            padding-right: 190px;
+            display: none;
         }
 
         .markdown-body a {
             text-underline-offset: 0.15em;
         }
 
-        .resume-actions {
-            display: flex;
-            justify-content: flex-end;
-            position: absolute;
-            top: 48px;
-            right: 48px;
+        .site-header {
+            display: grid;
+            grid-template-columns: auto minmax(0, 1fr) auto;
+            gap: 24px;
+            align-items: center;
+            padding-bottom: 24px;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--content-border);
+        }
+
+        .markdown-body .site-title {
             margin: 0;
+            padding-bottom: 0;
+            border-bottom: 0;
+            font-size: clamp(2.1rem, 6vw, 3rem);
+            font-weight: 600;
+            line-height: 1.2;
+        }
+
+        .resume-actions {
+            margin: 0;
+        }
+
+        .site-avatar {
+            width: 80px;
+            height: 80px;
+            border: 1px solid var(--content-border);
+            border-radius: 22%;
+            box-shadow: 0 8px 24px var(--avatar-shadow);
+            object-fit: cover;
         }
 
         .pdf-download {
@@ -100,17 +123,28 @@
                 margin: 0;
                 padding: 20px;
                 border: 0;
-                border-radius: 0;
+            border-radius: 0;
             }
 
-            .markdown-body > h1:first-of-type {
-                padding-right: 0;
+            .site-header {
+                grid-template-columns: auto minmax(0, 1fr);
+                gap: 14px;
+                padding-bottom: 18px;
+                margin-bottom: 18px;
             }
 
             .resume-actions {
-                position: static;
-                justify-content: flex-start;
-                margin-bottom: 16px;
+                grid-column: 1 / -1;
+                margin-top: 2px;
+            }
+
+            .site-avatar {
+                width: 72px;
+                height: 72px;
+            }
+
+            .site-title {
+                font-size: clamp(2rem, 12vw, 2.7rem);
             }
         }
     </style>
@@ -118,9 +152,13 @@
 
 <body>
     <article class="markdown-body">
-        <nav class="resume-actions" aria-label="Resume actions">
-            <a class="pdf-download" href="/arthur-rosa-resume.pdf" download>Download PDF</a>
-        </nav>
+        <header class="site-header">
+            <img class="site-avatar" src="https://www.gravatar.com/avatar/75852bd5adfd7fb80e02fa45dee070f0?s=160&d=mp" alt="Arthur Rosa">
+            <h1 class="site-title">Arthur Rosa</h1>
+            <nav class="resume-actions" aria-label="Resume actions">
+                <a class="pdf-download" href="/arthur-rosa-resume.pdf" download>Download PDF</a>
+            </nav>
+        </header>
         {{ html_body|indent(8) }}
     </article>
 </body>

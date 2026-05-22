@@ -24,7 +24,7 @@ cv:
         location:
         summary: Managed teams of 5-11 engineers across entry level, senior, and staff levels while operating as a player-coach across jobs, ads, mobile commerce, and AI product initiatives.
         highlights:
-          - Led an 8-engineer team building LinkedIn Crosscheck, a blind side-by-side frontier-model evaluation product; ramped company-wide in under 3 months while authoring 100+ production PRs.
+          - "Led an 8-engineer team building [LinkedIn Crosscheck](https://www.linkedin.com/blog/engineering/ai/crosscheck-benchmarking-ai-models-in-the-real-world), a blind side-by-side frontier-model evaluation product; ramped company-wide in under 3 months while authoring 100+ production PRs."
           - Architected LMS Mobile Boosting, a projected $29M first-year revenue opportunity; led LinkedIn's first Apple Advanced Commerce API integration and reusable payments infrastructure across LMS, BizApps, Finance, and LBP teams.
           - Led IV Ads MVP across immersive video, serving, and ad foundation teams, delivering on schedule and improving video views and completion rates by ~10% in LinkedIn-on-LinkedIn campaign tests.
           - Built LinkedIn job-seeking preferences platform and salary filters, growing salary-preference adoption 300% to 8M users and supporting partner-built experiences used by 500K DAU.
@@ -55,10 +55,10 @@ cv:
         location:
         summary:
         highlights:
-          - Volunteered on Career Outcome Tracker, a privacy-preserving clean-room product helping nonprofits, universities, and training programs measure employment outcomes with aggregated LinkedIn data.
+          - "Volunteered on [Career Outcome Tracker](https://www.linkedin.com/pulse/piloting-new-way-track-career-outcomes-linkedinsocialimpact-9xude/), a privacy-preserving clean-room product helping nonprofits, universities, and training programs measure employment outcomes with aggregated LinkedIn data."
           - Partnered directly with nonprofit organizations to deliver org-specific career-outcome insights; earned praise for responsiveness, professionalism, and depth of analysis.
           - Built API-driven automation replacing manual partner workflows, enabling more flexible evaluations and helping the team scale beyond the original process.
-          - Mentored college students through LinkedIn's Possibilities in Tech Scholarship, supporting future software engineers through career guidance and technical development.
+          - "Mentored college students through LinkedIn's [Possibilities in Tech Scholarship](https://careers.linkedin.com/pathways-programs/possibilities-scholarship), supporting future software engineers through career guidance and technical development."
 
       - company: GoFAR Maine
         position: Board Member, Engineer
@@ -67,11 +67,11 @@ cv:
         location:
         summary:
         highlights:
-          - Builds and maintains GATool, a React and .NET Core application used by FIRST Robotics game announcers at competitions worldwide.
+          - "Builds and maintains [GATool](https://gatool.org/), a React and .NET Core application used by FIRST Robotics game announcers at competitions worldwide."
           - Serves on the board of GoFAR Maine, supporting FRC teams across Southern Maine.
 
     patents:
-      - name: 'US 12,554,759: Recommendation Generation Using User Input'
+      - name: '[US 12,554,759: Recommendation Generation Using User Input](https://patents.google.com/patent/US12554759B2/en?oq=US+12%2c554%2c759)'
         date: 2026-02-17
         location:
         summary:
@@ -101,10 +101,15 @@ cv:
 
 design:
   theme: engineeringclassic
+  colors:
+    links: rgb(0, 0, 0)
   typography:
     alignment: left
   entries:
     allow_page_break: true
+  links:
+    underline: false
+    show_external_link_icon: false
 
 locale:
   language: english
