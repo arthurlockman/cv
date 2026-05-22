@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="{{ locale.language_iso_639_1 }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arthur Rosa - Resume</title>
+    <meta name="description" content="Resume for Arthur Rosa, engineering leader focused on AI products, marketplace systems, platform engineering, and high-performing teams.">
+    <meta name="author" content="Arthur Rosa">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Arthur Rosa - Resume">
+    <meta property="og:description" content="Engineering leader focused on AI products, marketplace systems, platform engineering, and high-performing teams.">
+    <meta name="twitter:card" content="summary">
+    <link rel="stylesheet" media="(prefers-color-scheme: light)"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+        integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-dark.min.css"
+        integrity="sha512-MmL2FuLmm/UH05Ah4JiJwA+G7OCceZDpzGHWqsju4Espzq+9nwQJdQVMNZPd1FNK2H3qDYXdET7HNG7Qm93FEg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        :root {
+            color-scheme: light dark;
+            --page-background: #f6f8fa;
+            --content-background: #ffffff;
+            --content-border: #d8dee4;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --page-background: #010409;
+                --content-background: #0d1117;
+                --content-border: #30363d;
+            }
+        }
+
+        body {
+            margin: 0;
+            background: var(--page-background);
+        }
+
+        .markdown-body {
+            box-sizing: border-box;
+            max-width: 920px;
+            margin: 32px auto;
+            padding: 48px;
+            background: var(--content-background);
+            border: 1px solid var(--content-border);
+            border-radius: 12px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        }
+
+        .markdown-body h1:first-child {
+            margin-top: 0;
+        }
+
+        .markdown-body a {
+            text-underline-offset: 0.15em;
+        }
+
+        .resume-actions {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 24px;
+        }
+
+        .pdf-download {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35em;
+            padding: 0.55em 0.85em;
+            border: 1px solid var(--content-border);
+            border-radius: 999px;
+            color: inherit;
+            font-size: 0.9em;
+            font-weight: 600;
+            line-height: 1;
+            text-decoration: none;
+        }
+
+        .pdf-download:hover {
+            text-decoration: none;
+            background: var(--page-background);
+        }
+
+        @media (max-width: 767px) {
+            body {
+                background: var(--content-background);
+            }
+
+            .markdown-body {
+                min-width: 0;
+                margin: 0;
+                padding: 20px;
+                border: 0;
+                border-radius: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <article class="markdown-body">
+        <nav class="resume-actions" aria-label="Resume actions">
+            <a class="pdf-download" href="/arthur-rosa-resume.pdf" download>Download PDF</a>
+        </nav>
+        {{ html_body|indent(8) }}
+    </article>
+</body>
+
+</html>

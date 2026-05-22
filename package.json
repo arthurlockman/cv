@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "bash scripts/build-site.sh",
+    "deploy": "npm run build && wrangler pages deploy dist"
+  },
+  "devDependencies": {
+    "wrangler": "^4.16.0"
+  }
+}
