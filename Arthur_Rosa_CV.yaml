@@ -22,7 +22,7 @@ cv:
         start_date: 2022
         end_date: 2026
         location:
-        summary: Managed teams of 5-11 engineers across entry level, senior, and staff levels while operating as a player-coach across jobs, ads, mobile commerce, and AI product initiatives.
+        summary: Managed teams of 5-11 engineers across junior, senior, and staff levels while staying deeply hands-on in architecture, implementation, and launch execution across jobs, ads, mobile commerce, and AI product initiatives.
         highlights:
           - "Led an 8-engineer team building [LinkedIn Crosscheck](https://www.linkedin.com/blog/engineering/ai/crosscheck-benchmarking-ai-models-in-the-real-world), a blind side-by-side frontier-model evaluation product; released to the public in under 3 months while authoring 100+ production pull requests."
           - Architected LinkedIn Marketing Solutions Mobile Boosting, a projected $29M first-year revenue opportunity; led LinkedIn's first Apple Advanced Commerce API integration and reusable payments infrastructure across marketing, business applications, finance, and payments platform teams.
@@ -80,7 +80,7 @@ cv:
 
     skills:
       - label: Leadership
-        details: Engineering management, player-coach leadership, technical strategy, roadmap planning, senior engineer development, performance calibration, cross-functional execution
+        details: Engineering management, hands-on technical leadership, technical strategy, roadmap planning, senior engineer development, performance calibration, cross-functional execution
       - label: AI, Product & Marketplace Systems
         details: LLM evaluation, model comparison, RAG, embeddings, recommendation systems, jobs marketplaces, ads, mobile commerce, payments, personalization
       - label: Platform & Infrastructure
