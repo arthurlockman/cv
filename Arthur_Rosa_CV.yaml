@@ -1,0 +1,127 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Arthur Rosa
+  headline: Engineering Leader | AI products, marketplace systems, and platform engineering
+  location: Sunnyvale, CA
+  email: arthur@rosafamily.net
+  phone: '+1 (207) 776-0993'
+  social_networks:
+    - network: LinkedIn
+      username: wq6e
+    - network: GitHub
+      username: arthurlockman
+    - network: Mastodon
+      username: '@arthur@rosafamily.social'
+  sections:
+    summary:
+      - Hands-on engineering manager with 9+ years across LinkedIn and Cimpress, spanning AI evaluation, recommendations, commerce, cloud infrastructure, and manufacturing systems. Player-coach leader who sets technical direction, develops senior engineers, and ships zero-to-one products in ambiguous environments.
+
+    experience:
+      - company: LinkedIn
+        position: Engineering Manager
+        start_date: 2022
+        end_date: 2026
+        location:
+        summary: Managed teams of 5-11 engineers across entry level, senior, and staff levels while operating as a player-coach across jobs, ads, mobile commerce, and AI product initiatives.
+        highlights:
+          - Led an 8-engineer team building LinkedIn Crosscheck, a blind side-by-side frontier-model evaluation product; ramped company-wide in under 3 months while authoring 100+ production PRs.
+          - Architected LMS Mobile Boosting, a projected $29M first-year revenue opportunity; led LinkedIn's first Apple Advanced Commerce API integration and reusable payments infrastructure across LMS, BizApps, Finance, and LBP teams.
+          - Led IV Ads MVP across immersive video, serving, and ad foundation teams, delivering on schedule and improving video views and completion rates by ~10% in LinkedIn-on-LinkedIn campaign tests.
+          - Built LinkedIn job-seeking preferences platform and salary filters, growing salary-preference adoption 300% to 8M users and supporting partner-built experiences used by 500K DAU.
+          - Introduced AI-assisted development workflows across the team, measuring 40%+ development-time savings across 45 completed tasks using pre-work estimates and source-control evidence.
+          - Sustained high engagement through reorgs, with Employee Voice Survey scores up to 88/100 (+12 vs company, +16 vs org), while promoting engineers through structured growth plans and calibration advocacy.
+          - Owned launch-readiness engineering across compliance annotations, content moderation, access approvals, OpenTelemetry metrics, alerting, and operational triage flows.
+
+      - company: Vistaprint / Cimpress
+        position: Principal Engineer, Engineering Manager
+        start_date: 2017
+        end_date: 2022
+        location:
+        summary:
+        highlights:
+          - Built reusable AWS/container deployment frameworks adopted as templates across Cimpress' modernization from aging on-prem datacenters to cloud-native services; reduced on-call pages 80%.
+          - Designed and implemented Cimpress' first global multi-region deployment model for manufacturing services, improving resilience and scalability across global operations.
+          - Converted backend stack from ECS to Kubernetes to improve monitoring, scaling, and multi-region deployment; deployed core services in Ireland and Mumbai to reduce latency for plants across Asia, Australia, and India.
+          - Led Pipelines, a configurable manufacturing workflow product that replaced multiple bespoke services and processed 2.9M jobs across all manufacturing plants.
+          - Engineered integrations with industrial hardware by reverse-engineering protocols in constrained manufacturing environments, enabling reliable solutions where vendor documentation and standard interfaces were unavailable.
+          - Built direct-to-garment poka-yoke scans and embroidery press connection software that reduced loading errors to near zero and helped prevent wrong-design production; solution rolled out globally.
+          - Created talent rotation program that broadened engineering skills, built succession depth, and supported promotion of 75% of the team.
+
+    "Social Impact & Community":
+      - company: LinkedIn Social Impact
+        position: Volunteer Engineer, Mentor
+        start_date: 2022
+        end_date: 2026
+        location:
+        summary:
+        highlights:
+          - Volunteered on Career Outcome Tracker, a privacy-preserving clean-room product helping nonprofits, universities, and training programs measure employment outcomes with aggregated LinkedIn data.
+          - Partnered directly with nonprofit organizations to deliver org-specific career-outcome insights; earned praise for responsiveness, professionalism, and depth of analysis.
+          - Built API-driven automation replacing manual partner workflows, enabling more flexible evaluations and helping the team scale beyond the original process.
+          - Mentored college students through LinkedIn's Possibilities in Tech Scholarship, supporting future software engineers through career guidance and technical development.
+
+      - company: GoFAR Maine
+        position: Board Member, Engineer
+        start_date: 2016
+        end_date: present
+        location:
+        summary:
+        highlights:
+          - Builds and maintains GATool, a React and .NET Core application used by FIRST Robotics game announcers at competitions worldwide.
+          - Serves on the board of GoFAR Maine, supporting FRC teams across Southern Maine.
+
+    patents:
+      - name: 'US 12,554,759: Recommendation Generation Using User Input'
+        date: 2026-02-17
+        location:
+        summary:
+        highlights:
+          - Co-inventor of an AI recommendation system that transforms sparse user input into taxonomy-aware, verified job recommendations using embeddings, vector search, and domain-specific prompt generation.
+
+    skills:
+      - label: Leadership
+        details: Engineering management, player-coach leadership, technical strategy, roadmap planning, senior engineer development, performance calibration, cross-functional execution
+      - label: AI, Product & Marketplace Systems
+        details: LLM evaluation, model comparison, RAG, embeddings, recommendation systems, jobs marketplaces, ads, mobile commerce, payments, personalization
+      - label: Platform & Infrastructure
+        details: Distributed systems, service architecture, cloud-native migration, Kubernetes, Docker, Terraform, AWS, Azure, CI/CD, OpenTelemetry
+      - label: Languages & Tools
+        details: C#, Python, Java, Rust, TypeScript, JavaScript, C++, Swift, React, Node.js, .NET Core
+      - label: Data & Workflow Tools
+        details: SQL, Postgres, MySQL, MongoDB, Airflow, Flyte, GitHub, GitLab CI/CD, Jira
+
+    education:
+      - institution: Worcester Polytechnic Institute
+        area: Robotics Engineering and Computer Science
+        degree: BS
+        start_date: 2013
+        end_date: 2017
+        location: Worcester, MA
+        highlights: []
+
+design:
+  theme: engineeringclassic
+  typography:
+    alignment: left
+  entries:
+    allow_page_break: true
+
+locale:
+  language: english
+
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []
+  pdf_title: Arthur Rosa - Resume
